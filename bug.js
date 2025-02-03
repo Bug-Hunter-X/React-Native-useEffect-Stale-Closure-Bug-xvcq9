@@ -1,0 +1,1 @@
+This React Native code throws an error because the `useEffect` hook's dependency array is missing `props.someProp`.  When `someProp` changes, the effect doesn't re-run, leading to stale closures.  The component may render with outdated data or produce unexpected behavior.
